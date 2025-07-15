@@ -9,6 +9,7 @@ The goal of the project is to simulate a real-time client-server system for tele
 - Simulated Station Tool (Java-based)
 - Visual Monitoring Panel (PanelVisualizador)
 
+## Proyects
 - - `ServidorTelemetría.java` – Main class to start the server and initialize components.
 - `HiloRecepción.java` – Thread responsible for receiving telemetry requests and spawning request threads.
 - `HiloPetición.java` – Manages a single telemetry request lifecycle.
@@ -18,5 +19,5 @@ The goal of the project is to simulate a real-time client-server system for tele
 - `CacheTrabajosActivos.java` – Shared cache storing active and completed analysis jobs.
 - `HiloLiberador.java` – Memory management thread for cleaning the cache using LRU policy.
 
-## Testing##
+## Testing
 Use the SimuladorEstación tool with commands like
